@@ -19,6 +19,11 @@ The content is kept at concept / overview level. Detailed propulsion, guidance a
 
 內容只保留在概念及概覽層面，刻意不包含詳細的推進、制導及性能參數。
 
+## Rocket physics playground · 火箭物理遊樂場
+
+[physics.html](https://tylercheng00.github.io/dawn-2/physics.html) — type in your own numbers: a thrust and specific-impulse calculator, a thrust-to-weight liftoff check, the rocket equation with optional staging, and a launch-to-space mini game (vertical flight with gravity, atmosphere and drag). Generic textbook physics; defaults are round teaching values, not DAWN-2 design parameters.<br>
+輸入你自己的數字：推力及比衝計算器、推重比起飛檢查、可加入分級的火箭方程，以及發射上太空小遊戲（計及重力、大氣及空氣阻力的垂直飛行）。內容為一般教科書物理，預設值為教學用整數，並非 DAWN-2 設計參數。
+
 ## Status · 狀態
 
 Concept design and digital prototype — no physical hardware or testing.

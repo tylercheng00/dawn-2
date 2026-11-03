@@ -161,6 +161,8 @@ tr:last-child td{border-bottom:0}
 .topbar .tb-back{flex:none;font-family:var(--f-mono);font-size:12.5px;color:var(--ink);text-decoration:none;border:1px solid var(--line);background:var(--sheet);padding:9px 14px;white-space:nowrap}
 .topbar .tb-back:hover{border-color:var(--accent);color:var(--accent)}
 .wrap>.topbar{margin-bottom:-40px}
+.tb-actions{display:flex;flex-wrap:wrap;gap:8px}
+.topbar .tb-play{border-color:var(--accent);color:var(--accent)}
 .note{font-size:12.5px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px;max-width:90ch}
 
 @media (max-width:980px){
@@ -183,7 +185,8 @@ tr:last-child td{border-bottom:0}
   .readout b{font-size:16px}
   .wrap{gap:56px}
   .wrap>.topbar{margin-bottom:-28px}
-  .topbar .tb-back{width:100%;text-align:center}
+  .tb-actions{width:100%}
+  .topbar .tb-back{flex:1;text-align:center;white-space:normal}
   .vp{height:58vh;min-height:380px}
   .vp-ctrl{left:12px;right:12px;flex-direction:row;flex-wrap:wrap;justify-content:flex-end}
   .vbtn{padding:8px 10px}
@@ -202,7 +205,10 @@ tr:last-child td{border-bottom:0}
     <p class="tb-title">DAWN-2 Concept Launch Vehicle<span lang="zh-Hant">曙光二號概念火箭</span></p>
     <p class="tb-note"><b>Concept</b>Concept design and digital prototype — no physical hardware · <span lang="zh-Hant">概念設計及數字原型，沒有實體硬件</span></p>
   </div>
-  <a class="tb-back" href="https://tylercheng00.github.io/">← tylercheng00.github.io · <span lang="zh-Hant">返回主頁</span></a>
+  <div class="tb-actions">
+    <a class="tb-back tb-play" href="physics.html">▲ Rocket physics playground · <span lang="zh-Hant">火箭物理遊樂場</span></a>
+    <a class="tb-back" href="https://tylercheng00.github.io/">← tylercheng00.github.io · <span lang="zh-Hant">返回主頁</span></a>
+  </div>
 </div>
 
 <header class="hero">
